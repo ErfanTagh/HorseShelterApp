@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Horse Shelter Management",
+    "slug": "horse-shelter-management",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a3cf2576-08e2-4d5f-88e3-0a93765cb193"
+      }
+    }
+  }
+}
