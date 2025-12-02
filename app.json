@@ -10,17 +10,28 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.etaghvaei0098.horsesheltermanagement",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.etaghvaei0098.horsesheltermanagement"
     },
     "extra": {
       "eas": {
         "projectId": "a3cf2576-08e2-4d5f-88e3-0a93765cb193"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a3cf2576-08e2-4d5f-88e3-0a93765cb193"
     }
   }
 }
